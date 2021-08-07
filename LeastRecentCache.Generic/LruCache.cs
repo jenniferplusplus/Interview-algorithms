@@ -30,7 +30,7 @@ namespace LeastRecentCache.Generic
             
             if (Count() == _capacity)
             {
-                _map.Remove(_queue.Last().Key);
+                _map.Remove(_queue.Last.Value.Key);
                 _queue.RemoveLast();
             }
 
