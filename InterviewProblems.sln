@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie.Generic", "Trie.Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie.Generic.Test", "Trie.Generic.Test\Trie.Generic.Test.csproj", "{DEA58B3B-2188-4D6C-950B-128D6C1B316C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeastRecentCache.Generic", "LeastRecentCache.Generic\LeastRecentCache.Generic.csproj", "{4A4CF2B8-4A9B-413A-B0AD-909C236B42D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LruCache.Generic.Test", "LruCache.Generic.Test\LruCache.Generic.Test.csproj", "{6A57D8AB-2243-4289-90A0-60AAE875B7B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{DEA58B3B-2188-4D6C-950B-128D6C1B316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEA58B3B-2188-4D6C-950B-128D6C1B316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEA58B3B-2188-4D6C-950B-128D6C1B316C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4CF2B8-4A9B-413A-B0AD-909C236B42D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4CF2B8-4A9B-413A-B0AD-909C236B42D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4CF2B8-4A9B-413A-B0AD-909C236B42D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4CF2B8-4A9B-413A-B0AD-909C236B42D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A57D8AB-2243-4289-90A0-60AAE875B7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A57D8AB-2243-4289-90A0-60AAE875B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A57D8AB-2243-4289-90A0-60AAE875B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A57D8AB-2243-4289-90A0-60AAE875B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
